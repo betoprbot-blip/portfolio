@@ -5,8 +5,8 @@
 # Site settings
 title: "Gilberto Miranda — IT Infrastructure & Technical Support Professional"
 description: "IT professional with 20+ years in telecommunications, network engineering, and technical support. Based in Austin, TX. Open to remote/hybrid roles and freelance projects."
-url: "https://gilbertomiranda.github.io"
-baseurl: "" # subpath of your site, e.g. /blog — leave empty for custom domain
+url: "https://betoprbot-blip.github.io"
+baseurl: "/gilbertomiranda.github.io"
 
 # Author
 author:
