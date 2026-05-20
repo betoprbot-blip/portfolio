@@ -1,0 +1,133 @@
+{
+  "name": "Gilberto Miranda",
+  "title": "IT Infrastructure & Technical Support Professional",
+  "location": "Austin, TX 78758",
+  "phone": "+1-737-222-3140",
+  "email": "gilberto.miranda.pro@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/gilberto-miranda-a3850836b/",
+  "github": "TODO_GITHUB_URL",
+  "summary": "IT professional with 20+ years in telecommunications, network engineering, and technical support. 89.98% truck roll prevention rate. Seeking remote/hybrid roles and freelance projects.",
+
+  "skills": {
+    "primary": [
+      "Remote Troubleshooting & Incident Management",
+      "LAN/WAN Administration & Network Analysis",
+      "VoIP / Voice over IP",
+      "Virtualization (VMware, Hyper-V)",
+      "System Monitoring & Disaster Recovery",
+      "Windows Server Administration",
+      "Active Directory, DNS, DHCP, VPN",
+      "Technical Documentation & Knowledge Bases",
+      "Bilingual Communication (English/Spanish)"
+    ],
+    "tools": [
+      "VMware vSphere / Hyper-V",
+      "Windows Server (NT – 2019)",
+      "Active Directory / Group Policy",
+      "Remote Desktop / Ticketing Systems",
+      "Wireshark / Network Analyzers",
+      "Linux (basic administration)",
+      "Python / Bash (scripting & automation)",
+      "Obsidian / Markdown (documentation)"
+    ]
+  },
+
+  "experience": [
+    {
+      "role": "Business Tech Support",
+      "company": "Charter Communications (Spectrum)",
+      "location": "Austin, TX",
+      "start": "2022-07",
+      "end": "present",
+      "highlights": [
+        "Resolve complex connectivity and equipment issues for business clients across voice, video, and data systems.",
+        "Prevent unnecessary field technician dispatches in 89.98% of cases through remote diagnostics.",
+        "Manage 4,100+ technical interactions annually with a 4.03/5 tech satisfaction score.",
+        "Document issues and resolutions in the internal knowledge base."
+      ]
+    },
+    {
+      "role": "IT Infrastructure Manager / Independent Consultant",
+      "company": "Self-Employed",
+      "location": "San Juan, PR / Remote",
+      "start": "1999-06",
+      "end": "present",
+      "highlights": [
+        "Designed, installed, and configured client LAN/WAN infrastructures and data communication systems.",
+        "Executed physical-to-virtual server migrations (Hyper-V → VMware), optimizing hardware resources.",
+        "Implemented system monitoring protocols for hardware integrity, server availability, and backup verification.",
+        "Managed network modeling and analysis for environments with 100+ users across multiple sites.",
+        "Applied CIS controls to secure equipment and maintain compliance."
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "Bachelor of Information Technology",
+      "institution": "Universidad de Puerto Rico — Mayagüez (UPR-MAY)",
+      "year": "1997"
+    }
+  ],
+
+  "certifications": [
+    "CompTIA Network+",
+    "CompTIA A+ Certified Service Professional",
+    "Microsoft Certified Professional (MCP)"
+  ],
+
+  "languages": [
+    { "language": "English", "level": "Professional working proficiency" },
+    { "language": "Spanish", "level": "Native" }
+  ],
+
+  "projects": [
+    {
+      "name": "Hermes v4 — Personal Automation System",
+      "type": "Personal / Infrastructure",
+      "problem": "After 4 failed attempts with OpenClaw and earlier Hermes versions, needed a reliable personal system to automate finances, sync data across cloud and local storage, and maintain operational continuity.",
+      "solution": "Designed and built a WSL2-based automation stack with unidirectional sync (rclone), scheduled cron jobs, and Obsidian-based documentation. Implemented checkpoint-based continuity.",
+      "stack": ["WSL2", "rclone", "Python", "Bash", "Cron", "Obsidian", "Google Drive API", "NVIDIA NIM"],
+      "result": "20+ days of uninterrupted automated operation. Daily sync, financial tracking, and status reporting without manual intervention. Under 5 minutes/day maintenance."
+    },
+    {
+      "name": "89.98% Truck Roll Prevention Rate",
+      "type": "Production / Support",
+      "problem": "Business clients at Spectrum frequently required on-site technician visits for issues that could be resolved remotely.",
+      "solution": "Developed deep diagnostic workflows for voice, video, and data services over coaxial and fiber infrastructure. Guided non-technical users through self-service tools and remote diagnostics.",
+      "stack": ["Spectrum Business Platform", "VoIP diagnostics", "Remote Desktop", "Ticketing System"],
+      "result": "89.98% truck roll prevention rate across 4,100+ annual interactions, with 4.03/5 tech satisfaction score."
+    },
+    {
+      "name": "Multi-Site LAN/WAN Deployment",
+      "type": "Consulting / Infrastructure",
+      "problem": "Small and medium businesses needed reliable, scalable network infrastructure across multiple physical sites with limited budgets.",
+      "solution": "Designed and deployed LAN/WAN environments for businesses with 100+ users. Handled physical installation, server configuration, network segmentation, and monitoring.",
+      "stack": ["Cisco/HP switches", "Windows Server", "VMware/Hyper-V", "Active Directory", "DNS/DHCP", "VPN"],
+      "result": "Delivered stable multi-site networks with documented monitoring protocols and disaster recovery procedures."
+    },
+    {
+      "name": "YouTube Knowledge Base & Tonal Analysis",
+      "type": "Personal / Data",
+      "problem": "Accumulated hundreds of YouTube transcripts but had no structured way to organize, evaluate, or extract value from them.",
+      "solution": "Built an automated pipeline that organizes transcripts into a structured vault (Obsidian), evaluates content quality using tonal analysis, and filters out low-value material.",
+      "stack": ["Python", "Obsidian", "YouTube Data API", "Custom tonal evaluation scripts"],
+      "result": "Processed 500+ transcripts, identified 80% as reliable sources, built a searchable personal knowledge base."
+    }
+  ],
+
+  "availability": {
+    "status": "open",
+    "types": ["full-time", "contract", "freelance"],
+    "roles": ["infrastructure", "support engineering", "network operations"],
+    "remote": true,
+    "hybrid": true,
+    "relocation": "possible for the right opportunity"
+  },
+
+  "meta": {
+    "version": "1.0.0",
+    "last_updated": "2026-05-19",
+    "source": "Verified professional experience. No AI-generated claims."
+  }
+}
