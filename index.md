@@ -13,13 +13,14 @@ description: "Gilberto Miranda — IT Infrastructure & Technical Support profess
       20+ years solving complex infrastructure and support problems in telecommunications and networking. I help businesses stay connected — remotely, efficiently, and without unnecessary downtime.
     </p>
     <div class="hero-cta">
-      <a href="#contact" class="btn btn-primary">Get in Touch</a>
-      <a href="#projects" class="btn btn-secondary">View Projects</a>
+      <a href="{{ '/#contact' | relative_url }}" class="btn btn-primary">Get in Touch</a>
+      <a href="{{ '/#projects' | relative_url }}" class="btn btn-secondary">View Projects</a>
+      <a href="{{ '/resume/' | relative_url }}" class="btn btn-secondary">Resume</a>
     </div>
   </div>
 </section>
 
-<!-- About Section -->
+<!-- About Section (brief) -->
 <section class="section" id="about">
   <div class="container">
     <h2 class="section-title">About Me</h2>
@@ -29,10 +30,13 @@ description: "Gilberto Miranda — IT Infrastructure & Technical Support profess
           I'm an IT professional with over two decades of hands-on experience in telecommunications, network engineering, and technical support. Currently at <strong>Charter Communications (Spectrum)</strong> in Austin, TX, I handle complex business-tier support — resolving voice, video, and data issues while preventing unnecessary field dispatches at a <strong>89.98% rate</strong>.
         </p>
         <p>
-          Before Charter, I spent years as an independent IT infrastructure consultant in Puerto Rico, designing and maintaining LAN/WAN environments for businesses with 100+ users across multiple sites. I've managed virtualization migrations, implemented monitoring protocols, and built networks from the ground up.
+          Before Charter, I spent years as an independent IT infrastructure consultant in Puerto Rico, designing and maintaining LAN/WAN environments for businesses with 100+ users across multiple sites.
         </p>
         <p>
-          I'm now looking for <strong>remote or hybrid IT roles</strong> — infrastructure, support engineering, or network operations — where I can apply my depth of experience without the constraints of a call center environment. I'm also open to <strong>freelance projects</strong> in network design, system automation, and technical documentation.
+          I'm now looking for <strong>remote or hybrid IT roles</strong> — infrastructure, support engineering, or network operations — and open to <strong>freelance projects</strong> in network design, system automation, and technical documentation.
+        </p>
+        <p>
+          <a href="{{ '/about/' | relative_url }}" class="btn btn-secondary">Read More →</a>
         </p>
       </div>
       <div class="about-skills">
@@ -40,23 +44,22 @@ description: "Gilberto Miranda — IT Infrastructure & Technical Support profess
         <ul class="skill-list">
           <li>Remote Troubleshooting &amp; Incident Management</li>
           <li>LAN/WAN Administration &amp; Network Analysis</li>
-          <li>VoIP / Voice over IP (VoIP, RingCentral)</li>
+          <li>VoIP / Voice over IP</li>
           <li>Virtualization (VMware, Hyper-V)</li>
           <li>System Monitoring &amp; Disaster Recovery</li>
           <li>Windows Server Administration</li>
           <li>Active Directory, DNS, DHCP, VPN</li>
           <li>Technical Documentation &amp; Knowledge Bases</li>
-          <li>Bilingual Communication (English/Spanish)</li>
+          <li>Bilingual (English/Spanish)</li>
         </ul>
         <h3>Tools &amp; Stack</h3>
         <ul class="skill-list">
           <li>VMware vSphere / Hyper-V</li>
           <li>Windows Server (NT – 2019)</li>
           <li>Active Directory / Group Policy</li>
-          <li>Remote Desktop / Ticketing Systems</li>
           <li>Wireshark / Network Analyzers</li>
-          <li>Linux (basic administration)</li>
           <li>Python / Bash (scripting &amp; automation)</li>
+          <li>WSL2, rclone, Cron (infrastructure)</li>
           <li>Obsidian / Markdown (documentation)</li>
         </ul>
       </div>
@@ -68,7 +71,7 @@ description: "Gilberto Miranda — IT Infrastructure & Technical Support profess
 <section class="section section-alt" id="projects">
   <div class="container">
     <h2 class="section-title">Projects</h2>
-    <p class="section-subtitle">Selected work — from production systems to personal automation.</p>
+    <p class="section-subtitle">Selected work — from production systems to personal automation. <a href="{{ '/blog/' | relative_url }}">Read the blog →</a></p>
     <div class="projects-grid">
 
       <article class="project-card">
@@ -127,77 +130,8 @@ description: "Gilberto Miranda — IT Infrastructure & Technical Support profess
   </div>
 </section>
 
-<!-- CV / Experience Section -->
-<section class="section" id="cv">
-  <div class="container">
-    <h2 class="section-title">Experience &amp; Education</h2>
-
-    <div class="cv-grid">
-      <div class="cv-main">
-        <h3>Professional Experience</h3>
-
-        <div class="cv-item">
-          <div class="cv-item-header">
-            <h4>Business Tech Support</h4>
-            <span class="cv-date">July 2022 – Present</span>
-          </div>
-          <p class="cv-org">Charter Communications (Spectrum) — Austin, TX</p>
-          <ul class="cv-details">
-            <li>Resolve complex connectivity and equipment issues for business clients across voice, video, and data systems.</li>
-            <li>Prevent unnecessary field technician dispatches in 89.98% of cases through remote diagnostics and user guidance.</li>
-            <li>Manage 4,100+ technical interactions annually with a 4.03/5 tech satisfaction score.</li>
-            <li>Document issues and resolutions in the internal knowledge base for team reference.</li>
-          </ul>
-        </div>
-
-        <div class="cv-item">
-          <div class="cv-item-header">
-            <h4>IT Infrastructure Manager / Independent Consultant</h4>
-            <span class="cv-date">June 1999 – Present</span>
-          </div>
-          <p class="cv-org">San Juan, PR / Remote</p>
-          <ul class="cv-details">
-            <li>Designed, installed, and configured client LAN/WAN infrastructures and data communication systems.</li>
-            <li>Executed physical-to-virtual server migrations (Hyper-V → VMware), optimizing hardware resources.</li>
-            <li>Implemented system monitoring protocols for hardware integrity, server availability, and backup verification.</li>
-            <li>Managed network modeling and analysis for environments with 100+ users across multiple sites.</li>
-            <li>Applied CIS controls to secure equipment and maintain compliance.</li>
-          </ul>
-        </div>
-
-      </div>
-
-      <div class="cv-side">
-        <h3>Education</h3>
-        <div class="cv-item">
-          <h4>Bachelor of Information Technology</h4>
-          <p class="cv-org">Universidad de Puerto Rico — Mayagüez (UPR-MAY)</p>
-          <span class="cv-date">1997</span>
-        </div>
-
-        <h3>Certifications</h3>
-        <ul class="cv-cert-list">
-          <li>CompTIA Network+</li>
-          <li>CompTIA A+ Certified Service Professional</li>
-          <li>Microsoft Certified Professional (MCP)</li>
-        </ul>
-
-        <h3>Languages</h3>
-        <ul class="cv-cert-list">
-          <li>English — Professional working proficiency</li>
-          <li>Spanish — Native</li>
-        </ul>
-
-        <div class="cv-download">
-          <a href="resume.pdf" class="btn btn-secondary" title="Download PDF resume">Download PDF Resume</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- Contact Section -->
-<section class="section section-alt" id="contact">
+<section class="section" id="contact">
   <div class="container">
     <h2 class="section-title">Contact</h2>
     <p class="section-subtitle">Open to remote/hybrid IT roles and freelance projects. Based in Austin, TX.</p>
