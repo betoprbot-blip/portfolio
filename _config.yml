@@ -1,0 +1,56 @@
+# ============================================
+# Jekyll Configuration — Gilberto Miranda Portfolio
+# ============================================
+
+# Site settings
+title: "Gilberto Miranda — IT Infrastructure & Technical Support Professional"
+description: "IT professional with 20+ years in telecommunications, network engineering, and technical support. Based in Austin, TX. Open to remote/hybrid roles and freelance projects."
+url: "https://gilbertomiranda.github.io"
+baseurl: "" # subpath of your site, e.g. /blog — leave empty for custom domain
+
+# Author
+author:
+  name: Gilberto Miranda
+  email: betoprbot@agentmail.to
+  location: Austin, TX
+
+# Social / SEO
+twitter:
+  card: summary
+og:
+  type: website
+  title: "Gilberto Miranda — IT Professional"
+  description: "20+ years in IT infrastructure, networking, and technical support. 89.98% truck roll prevention rate."
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins (GitHub Pages supported)
+plugins:
+  - jekyll-sitemap        # Generates sitemap.xml for SEO
+  - jekyll-seo-tag        # Adds SEO meta tags automatically
+  - jekyll-feed           # Generates Atom feed (optional, for future blog)
+
+# Sass settings
+sass:
+  style: compressed
+
+# Defaults — apply layout to all pages
+defaults:
+  - scope:
+      path: "" # all files
+    values:
+      layout: default
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+  - README.md
