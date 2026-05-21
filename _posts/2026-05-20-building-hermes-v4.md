@@ -1,9 +1,13 @@
 ---
-layout: post
+layout: single
 title: "Building Hermes v4 — A Personal Automation System That Actually Works"
 date: 2026-05-20
-category: Project Log
+categories: [project-log]
 tags: [automation, wsl2, rclone, obsidian, jekyll]
+classes: wide
+author_profile: true
+show_date: true
+read_time: true
 ---
 
 After 4 failed attempts with OpenClaw and earlier Hermes versions, I built a personal automation system that runs without daily intervention. Here's how it works and what I learned.

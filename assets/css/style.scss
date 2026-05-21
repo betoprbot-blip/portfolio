@@ -1,0 +1,121 @@
+---
+---
+
+@import "minimal-mistakes/skins/dark"; // dark skin
+@import "minimal-mistakes";
+
+// ============================================
+// Custom overrides — Gilberto Miranda Portfolio
+// ============================================
+
+// Keep the dark theme colors consistent with original
+$background-color: #0f1117 !default;
+$text-color: #e2e4ed !default;
+$muted-text-color: #8b8fa3 !default;
+$primary-color: #4a8cff !default;
+$link-color: #4a8cff !default;
+$link-color-hover: #6ba0ff !default;
+$masthead-link-color: #e2e4ed !default;
+$masthead-link-color-hover: #4a8cff !default;
+$navicon-link-color-hover: #4a8cff !default;
+
+// Override background
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
+
+// Masthead styling
+.masthead {
+  background: rgba(15, 17, 23, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid #2a2d3a;
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+// Page content
+.page__content {
+  h1, h2, h3, h4, h5, h6 {
+    color: $text-color;
+  }
+
+  a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color-hover;
+    }
+  }
+
+  strong {
+    color: $text-color;
+  }
+}
+
+// Footer
+.page__footer {
+  background-color: darken($background-color, 2%);
+  border-top: 1px solid #2a2d3a;
+  color: $muted-text-color;
+}
+
+// Archive (blog list) styling
+.archive__item-title {
+  color: $text-color;
+}
+
+.archive__item-excerpt {
+  color: $muted-text-color;
+}
+
+// Author sidebar
+.author__avatar img {
+  border-color: $primary-color;
+}
+
+.author__name {
+  color: $text-color;
+}
+
+.author__bio {
+  color: $muted-text-color;
+}
+
+// Buttons
+.btn {
+  &--primary {
+    background-color: $primary-color;
+    color: #fff;
+
+    &:hover {
+      background-color: $link-color-hover;
+      color: #fff;
+    }
+  }
+}
+
+// Code blocks
+.highlight {
+  background: #1c1f2b;
+  border: 1px solid #2a2d3a;
+}
+
+// Tables
+table {
+  border-color: #2a2d3a;
+}
+
+th, td {
+  border-color: #2a2d3a;
+}
+
+// Blockquotes
+blockquote {
+  border-left-color: $primary-color;
+  color: $muted-text-color;
+}
