@@ -5,7 +5,7 @@ Built with plain HTML, CSS, and JavaScript. No frameworks. No build step.
 
 ## Live URL
 
-`https://gilbertomiranda.github.io/` (once published)
+`https://beto-agent.github.io/portfolio/`
 
 ## File Structure
 
@@ -26,10 +26,11 @@ portfolio-site/
 ### Step 1: Create the Repository
 
 1. Go to [github.com/new](https://github.com/new)
-2. Name it: `gilbertomiranda.github.io` (must match `username.github.io`)
-3. Set to **Public**
-4. Do NOT initialize with README (you already have one)
-5. Click **Create repository**
+2. Name it: `portfolio`
+3. Set owner/account to `beto-agent`
+4. Set to **Public**
+5. Do NOT initialize with README (you already have one)
+6. Click **Create repository**
 
 ### Step 2: Upload Files
 
@@ -41,7 +42,7 @@ git init
 git add .
 git commit -m "Initial portfolio site"
 git branch -M main
-git remote add origin https://github.com/gilbertomiranda/gilbertomiranda.github.io.git
+git remote add origin https://github.com/beto-agent/portfolio.git
 git push -u origin main
 ```
 
@@ -61,7 +62,7 @@ git push -u origin main
 ### Step 4: Wait & Verify
 
 - GitHub will build and deploy (usually 1-2 minutes)
-- Visit `https://gilbertomiranda.github.io/`
+- Visit `https://beto-agent.github.io/portfolio/`
 - If it doesn't load immediately, wait 5 minutes and try again
 
 ## How to Update Content
