@@ -18,12 +18,12 @@ minimal_mistakes_skin: "dark"
 # Author
 author:
   name: "Gilberto Miranda"
-  email: "betoprbot@agentmail.to"
+  email: "beto-agent@agentmail.to"
   location: "Austin, TX"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:betoprbot@agentmail.to"
+      url: "mailto:beto-agent@agentmail.to"
 
 # Site logo (optional — uncomment when you have a logo image)
 # logo: "/assets/images/logo.png"
