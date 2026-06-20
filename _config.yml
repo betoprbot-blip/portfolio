@@ -17,7 +17,6 @@ author:
       icon: fas fa-envelope
       url: mailto:beto-agent@agentmail.to
 
-theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 
 url: https://beto-agent.github.io
