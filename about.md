@@ -10,7 +10,7 @@ I'm an IT professional with over two decades of hands-on experience in telecommu
 
 ## Currently
 
-At **Charter Communications (Spectrum)** in Austin, TX, I handle complex business-tier support — resolving voice, video, and data issues while preventing unnecessary field dispatches at a **89.98% rate** across 4,100+ annual interactions with a 4.03/5 tech satisfaction score.
+At **Charter Communications (Spectrum)** in Austin, TX, I handle complex business-tier support — resolving voice, video, and data issues while preventing unnecessary field dispatches at a **89.98% rate** across **4,100+** annual interactions with a 4.03/5 tech satisfaction score. On track for **Technical Support II** promotion.
 
 ## Previously
 
@@ -18,23 +18,19 @@ As an independent IT infrastructure consultant in Puerto Rico, I designed and ma
 
 ## What I'm Looking For
 
-**Remote or hybrid IT roles** — infrastructure, support engineering, or network operations — where I can apply my depth of experience without the constraints of a call center environment. I'm also open to **freelance projects** in network design, system automation, and technical documentation.
-
-## Outside of Work
-
-I build automation systems (like [**Hermes v4**](/projects/#hermes-v4)), maintain a personal knowledge base from hundreds of technical transcripts, and continuously learn — currently exploring LLM integrations, infrastructure-as-code, and advanced network monitoring.
+**Remote or hybrid IT roles** — infrastructure, support engineering, network operations, **AI/ML Ops, technical sales, consulting, or technical education** — where I can apply my depth of experience with **location flexibility (travel-friendly, not tied to 5 days/week in office)**. Also open to **freelance projects** in network design, system automation, and technical documentation.
 
 ## Core Skills
 
 - Remote Troubleshooting & Incident Management
 - LAN/WAN Administration & Network Analysis
-- VoIP / Voice over IP
+- VoIP Diagnóstico & Diagnostics
 - Virtualization (VMware, Hyper-V)
 - System Monitoring & Disaster Recovery
 - Windows Server Administration
 - Active Directory, DNS, DHCP, VPN
 - Technical Documentation & Knowledge Bases
-- Bilingual Communication (English/Spanish)
+- Bilingual Communication (English/Spanish — native)
 
 ## Tools & Stack
 
@@ -46,3 +42,9 @@ I build automation systems (like [**Hermes v4**](/projects/#hermes-v4)), maintai
 - WSL2, rclone, Cron (infrastructure)
 - Obsidian / Markdown (documentation)
 - NVIDIA NIM, LLMs (automation)
+
+## Contact
+
+- **Email:** beto-agent@agentmail.to
+- **LinkedIn:** linkedin.com/in/gilberto-miranda
+- **Portfolio:** beto-agent.github.io/portfolio

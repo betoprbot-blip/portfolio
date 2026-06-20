@@ -1,107 +1,104 @@
-# ============================================
-# Minimal Mistakes Jekyll Theme
-# ============================================
-
-# Theme
-remote_theme: "mmistakes/minimal-mistakes@4.28.0"
-
-# Site settings
-title: "Gilberto Miranda"
-subtitle: "IT Infrastructure & Technical Support Professional"
-description: "IT professional with 20+ years in telecommunications, network engineering, and technical support. Based in Austin, TX. Open to remote/hybrid roles and freelance projects."
-url: "https://beto-agent.github.io"
-baseurl: "/portfolio"
-repository: "beto-agent/portfolio"
-locale: "en-US"
-minimal_mistakes_skin: "dark"
-
-# Author
+title: Gilberto Miranda — IT Professional Portfolio
+description: >-
+  IT professional with 20+ years in telecommunications, network engineering, and technical support.
+  Specializing in remote diagnostics, infrastructure automation, and operational efficiency.
+  Based in Austin, TX. Open to remote/hybrid roles with location flexibility.
 author:
-  name: "Gilberto Miranda"
-  email: "beto-agent@agentmail.to"
-  location: "Austin, TX"
+  name: Gilberto Miranda
+  email: beto-agent@agentmail.to
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:beto-agent@agentmail.to"
+    - label: GitHub
+      icon: fab fa-github
+      url: https://github.com/beto-agent
+    - label: LinkedIn
+      icon: fab fa-linkedin
+      url: https://linkedin.com/in/gilberto-miranda
+    - label: Email
+      icon: fas fa-envelope
+      url: mailto:beto-agent@agentmail.to
 
-# Site logo (optional — uncomment when you have a logo image)
-# logo: "/assets/images/logo.png"
+theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 
-# Masthead
-masthead_title: "Gilberto Miranda"
+url: https://beto-agent.github.io
+baseurl: /portfolio
 
-# SEO
-twitter:
-  username: ""
-facebook:
-  username: ""
-og_image: ""
-
-# Analytics (uncomment when ready)
-# provider: "google-gtag"
-# google:
-#   tracking_id: "UA-XXXXXXXX-X"
-
-# Site search
-search: true
-
-# Reading time
-words_per_minute: 200
-
-# Comments (disabled — enable later if needed)
-comments:
-  provider: false
-
-# Plugins
 plugins:
   - jekyll-include-cache
-  - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-coffeescript
-  - jekyll-default-layout
-  - jekyll-github-metadata
-  - jekyll-optional-front-matter
-  - jekyll-readme-index
-  - jekyll-titles-from-headings
-  - jekyll-relative-links
+  - jekyll-sitemap
+
+# SEO
+google_site_verification:
+bing_site_verification:
+
+# Social
+twitter:
+  username:
+facebook:
+  username:
+linkedin:
+  username: gilberto-miranda
+
+# Search
+search: true
+search_full_content: true
+search_provider: lunr
+
+# Analytics
+analytics:
+  provider: google-gtag
+  google:
+    tracking_id:
+    anonymize_ip: false
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Projects
+    url: /projects/
+  - title: Resume
+    url: /resume/
+
+# Footer
+footer:
+  links:
+    - label: GitHub
+      icon: fab fa-github
+      url: https://github.com/beto-agent
+    - label: LinkedIn
+      icon: fab fa-linkedin
+      url: https://linkedin.com/in/gilberto-miranda
+    - label: Email
+      icon: fas fa-envelope
+      url: mailto:beto-agent@agentmail.to
 
 # Defaults
 defaults:
-  # Posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: false
-      related: true
-      show_date: true
-      classes: wide
-  # Pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-      classes: wide
+      share: false
+      comments: false
+      read_time: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+      read_time: true
 
-# Sass
-sass:
-  style: compressed
-
-# Outputting
-permalink: /:categories/:title/
-paginate: 5
-paginate_path: /page:num/
-timezone: America/Chicago
+# Include cache
+include: [".well-known"]
 
 # Exclude
 exclude:
@@ -111,13 +108,6 @@ exclude:
   - vendor
   - .sass-cache
   - .jekyll-cache
-  - .jekyll-metadata
+  - .github
   - README.md
-  - "*.gemspec"
-
-# Keep files
-keep_files:
-  - css
-  - js
-  - data
-  - images
+  - LICENSE

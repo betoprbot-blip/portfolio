@@ -32,7 +32,7 @@ Selected work — from production systems to personal automation.
 
 **Stack:** Spectrum Business Platform, VoIP diagnostics, Remote Desktop, Ticketing System, Knowledge Base
 
-**Result:** Achieved **89.98% truck roll prevention rate** across **4,000+ annual technical interactions**, with a **4.03/5 tech satisfaction score**.
+**Result:** Achieved **89.98% truck roll prevention rate** across **4,100+ annual technical interactions**, with a **4.03/5 tech satisfaction score**.
 
 ---
 

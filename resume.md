@@ -14,9 +14,10 @@ author_profile: true
 
 - Resolve complex connectivity and equipment issues for business clients across voice, video, and data systems over coaxial and fiber infrastructure.
 - Prevent unnecessary field technician dispatches in **89.98%** of cases through remote diagnostics and user guidance.
-- Manage **4,000+** technical interactions annually with a **4.03/5** tech satisfaction score.
+- Manage **4,100+** technical interactions annually with a **4.03/5** tech satisfaction score.
 - Document issues and resolutions in the internal knowledge base for team reference.
 - Guide non-technical users through self-service tools, even under high-stress conditions.
+- **On track for Technical Support II promotion** — expanding scope to escalated tier support.
 
 ### IT Infrastructure Manager / Independent Consultant
 **San Juan, PR / Remote**
@@ -78,7 +79,7 @@ author_profile: true
 ## Availability
 
 - Full-time, contract, or freelance
-- Remote or hybrid (Austin, TX)
+- **Remote or hybrid (Austin, TX)** — **location flexible, travel-friendly**
 - Open to relocation
 
 ---
