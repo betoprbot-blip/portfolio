@@ -27,6 +27,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-last-modified-at
 
 # SEO
 google_site_verification:
@@ -62,6 +63,8 @@ navigation:
     url: /projects/
   - title: Resume
     url: /resume/
+  - title: Blog
+    url: /blog/
 
 # Footer
 footer:
@@ -96,6 +99,7 @@ defaults:
       share: true
       comments: true
       read_time: true
+      show_date: true
 
 # Include cache
 include: [".well-known"]
