@@ -12,7 +12,7 @@ author:
       url: https://github.com/beto-agent
     - label: LinkedIn
       icon: fab fa-linkedin
-      url: https://linkedin.com/in/gilberto-miranda
+      url: https://www.linkedin.com/in/gmd-tito/
     - label: Email
       icon: fas fa-envelope
       url: mailto:beto-agent@agentmail.to
@@ -39,7 +39,7 @@ twitter:
 facebook:
   username:
 linkedin:
-  username: gilberto-miranda
+  username: gmd-tito
 
 # Search
 search: true
@@ -74,7 +74,7 @@ footer:
       url: https://github.com/beto-agent
     - label: LinkedIn
       icon: fab fa-linkedin
-      url: https://linkedin.com/in/gilberto-miranda
+      url: https://www.linkedin.com/in/gmd-tito/
     - label: Email
       icon: fas fa-envelope
       url: mailto:beto-agent@agentmail.to
