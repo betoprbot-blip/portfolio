@@ -18,7 +18,7 @@ author:
       url: mailto:beto-agent@agentmail.to
 
 theme: minimal-mistakes-jekyll
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 
 url: https://beto-agent.github.io
 baseurl: /portfolio
@@ -28,6 +28,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-last-modified-at
+  - jekyll-remote-theme
 
 # SEO
 google_site_verification:
